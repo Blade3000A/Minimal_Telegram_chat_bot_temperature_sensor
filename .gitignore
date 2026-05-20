@@ -1,0 +1,34 @@
+# Build output
+bin/
+obj/
+
+# .NET user-specific files
+*.user
+*.suo
+.vs/
+
+# Compiled Arduino artifacts
+*.elf
+*.hex
+*.eep
+build/
+
+# SQLite database (contains real sensor data — do not commit)
+*.db
+*.db-shm
+*.db-wal
+
+# SQLite Browser project file (optional, can be committed if useful)
+# *.sqbpro
+
+# Secrets — never commit the real appsettings with your token
+# Commit appsettings.json only with placeholder values
+# appsettings.json   ← intentionally NOT ignored; keep placeholder version
+
+# Linux
+*.swp
+*~
+.DS_Store
+
+# VSCode
+.vscode/
